@@ -7,22 +7,20 @@ body{
 
 .square{
 width: 30%;
-
+background: purple;
 padding-bottom: 30%;
 float: left;
 margin: 1.66%;
+border-radius: 10%;
+transition: background 0.6s;
+--webkit-transition: background 0.6s;
+--moz-transition: background 0.6s;
 }
 
-.container{
+#container{
 padding-top: 20px;
 max-width: 600px;
 margin: 0 auto;
-}
-
-.container p{
-    color: white;
-    text-transform: lowercase;
-   
 }
 
 #message{
@@ -49,14 +47,20 @@ h1{
     background-color: steelblue;
 }
 
-
+#colorDisplay{
+    font-size: 200%;
+}
 
 button{
-    
+    border: none;
+    background: none;
     height: 100%;
     text-transform: uppercase;
     font-weight: 700;
     color: steelblue;
+    transition: all 0.3s;
+    outline: none;
+
 }
 
 button:hover{
